@@ -135,7 +135,7 @@ public class AlternativaDAO extends DAO {
 		return status;
 	}
 
-	public boolean autenticar(String login, String senha) { // autenticar, "selecionar" alternativa pelo id
+	public boolean autenticar(int idAlt) { // autenticar, "selecionar" alternativa pelo id
 		boolean resp = false;
 
 		try {
